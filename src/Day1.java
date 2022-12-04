@@ -9,7 +9,7 @@ public class Day1 {
 
     public void ReadFile() {
         try {
-            File myObj = new File("resources/Day1");
+            File myObj = new File("resources/Day1.txt");
             Scanner myReader = new Scanner(myObj);
 
             List<Integer> sums = new ArrayList<>();
