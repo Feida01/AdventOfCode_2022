@@ -15,7 +15,7 @@ public class Day3 {
                 String data = myReader.nextLine();
                 ruckSacks.add(data);
             }
-//            System.out.println(part1(ruckSacks));
+            System.out.println(part1(ruckSacks));
             System.out.println(part2(ruckSacks));
             myReader.close();
         } catch (FileNotFoundException e) {
