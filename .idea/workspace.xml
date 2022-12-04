@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3097d844-53e8-4d4e-a490-d427c9ba5d13" name="Changes" comment="day 1 finished">
+    <list default="true" id="3097d844-53e8-4d4e-a490-d427c9ba5d13" name="Changes" comment="day 2 finished">
+      <change afterPath="$PROJECT_DIR$/resources/Day3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,6 +36,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
   }
@@ -61,7 +64,13 @@
       <option name="presentableId" value="Default" />
       <updated>1669894651366</updated>
       <workItem from="1669894652901" duration="3853000" />
-      <workItem from="1669898592743" duration="53000" />
+      <workItem from="1669898592743" duration="79000" />
+      <workItem from="1669899152725" duration="27000" />
+      <workItem from="1669986464712" duration="2408000" />
+      <workItem from="1669989036259" duration="50000" />
+      <workItem from="1670014033476" duration="3279000" />
+      <workItem from="1670018901859" duration="42000" />
+      <workItem from="1670182598205" duration="5604000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 txt file">
       <created>1669895094801</created>
@@ -70,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669895094801</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day 1 finished">
+      <created>1669898657960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669898657960</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day 2 finished">
+      <created>1670182852184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670182852184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 1 txt file" />
     <MESSAGE value="day 1 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 1 finished" />
+    <MESSAGE value="day 2 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 2 finished" />
   </component>
 </project>
