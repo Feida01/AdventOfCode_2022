@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Day4 day = new Day4();
+        Day6 day = new Day6();
         day.ReadFile();
     }
 }
