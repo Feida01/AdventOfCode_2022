@@ -32,10 +32,21 @@ public class Day6 {
     public int findFirstMarker(int sequenceSize, String buffer) {
         for (int i = 0; i < buffer.length() - sequenceSize + 1; i++) {
             String sequence = buffer.substring(i, i + sequenceSize);
-            if (sequence.chars().distinct().count() == sequenceSize) {
+            if (isUniqueSequenceSize(sequence)) {
                 return i + sequenceSize;
             }
         }
         return 0;
+    }
+
+    public boolean isUniqueSequenceSize(String buffer) {
+        for (int j = 0; j < buffer.length(); j++) {
+            for (int k = j + 1; k < buffer.length(); k++) {
+                if (buffer.charAt(j) == buffer.charAt(k)) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
